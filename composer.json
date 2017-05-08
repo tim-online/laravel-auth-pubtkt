@@ -1,0 +1,31 @@
+{
+    "name": "tim-online/laravel-auth-pubtkt",
+    "type": "library",
+    "description": "Laravel login server for mod_auth_pubtkt",
+    "license": "GPL-2.0",
+    "version": "0.0.1",
+    "homepage": "https://github.com/tim-online",
+    "keywords": [
+        "laravel",
+        "mod_auth_pubtkt",
+        "sso"
+    ],
+    "authors": [
+        {
+            "name": "Tim_online",
+            "email": "info@tim-online.nl",
+            "homepage": "https://www.tim-online.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Timonline\\AuthPubtkt\\": "src"
+        }
+    }
+}
